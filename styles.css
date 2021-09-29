@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+}
+
+.nav {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  background-color: black;
+  padding: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 10px;
+}
+
+.nav a:hover {
+  transition: 0.5s ease-in-out;
+  color: dodgerblue;
+}
+
+#home:visited {
+  color: dodgerblue;
+}
+
+.hme img {
+  width: 100%;
+}
+
+.btn {
+  position: relative;
+  bottom: 400px;
+  left: 400px;
+  padding: 10px;
+  border: none;
+  width: 100px;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: orangered;
+}
+
+.cate {
+  background: dodgerblue;
+  width: 100vw;
+  height: 100vh;
+}
+
+.product {
+  display: inline-block;
+  width: 33%;
+  position: relative;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+}
